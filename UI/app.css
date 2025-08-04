@@ -1,0 +1,124 @@
+body {
+  background-color: #f7f9fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.card-wrapper {
+  margin: 3% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-circle-image {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.custom-circle-image:hover {
+  transform: scale(1.05);
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.dropzone {
+  border: 2px dashed #aaa;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.dropzone:hover {
+  border-color: #007bff;
+}
+
+#submitBtn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#error {
+  font-size: 18px;
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #f5c6cb;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#resultHolder {
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#classTable th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+}
+
+.progress {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  height: 20px;
+  color: white;
+  text-align: center;
+  padding-left: 5px;
+  font-size: 14px;
+}
